@@ -10,6 +10,8 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		
 		SpringApplication.run(DemoApplication.class, args);
+		
+		System.out.println("Thuppaki local has been added");
 	 
 	/*Alien a = context.getBean(Alien.class);
 	a.show();*/
