@@ -14,6 +14,7 @@ public class Alien {
 	
 	private int id;
 	private String name;
+	
 	@Autowired
 	private Laptop laptop;
 	
@@ -37,7 +38,9 @@ public class Alien {
 	}
 	
  public void show()
- { System.out.println("show"); 
+ { 
+	System.out.println("show"); 
+	 
  laptop.compile();
  }
 }

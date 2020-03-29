@@ -12,6 +12,6 @@ public class HomeController {
 	public String home()
 	{   
 		System.out.println("home controller");
-		return "home.jsp";
+		return "welcome to jenkins and github home.jsp";
 	}
 }
